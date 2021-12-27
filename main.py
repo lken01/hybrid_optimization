@@ -166,9 +166,9 @@ if __name__ == '__main__':
     # non-semantic point observation file
     ptObs_file = open("../loss_files/all_observations.txt","r")
     # Ground truth file
-    gt_file = open("../../ground_truth/trajectory_22.txt")
+    gt_file = open("trajectory_22.txt")
     # map contour
-    map_contour = cv2.imread("../../ground_truth/map_contour.png")
+    map_contour = cv2.imread("map_contour.png")
 
     params = Parameters(map_contour)
 
